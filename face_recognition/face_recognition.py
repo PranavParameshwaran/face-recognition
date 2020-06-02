@@ -29,7 +29,7 @@ class FaceRecognition(object):
         Initialize Face Recognition model
         """
         # GRAPH
-        self.graph = tf.get_default_graph()
+        self.graph = tf.compat.v1.get_default_graph()
 
         # Load Face Detector
         self.face_detector = MTCNN()
