@@ -1,1 +1,1 @@
-from face_recognition.facenet_face_recog import FaceRecognition
+from facenet_face_recog.facenet_face_recog import FaceRecognition
