@@ -6,4 +6,4 @@ numpy
 keras_facenet
 imutils
 pandas
-tensorflow
+tensorflow==1.13.1
